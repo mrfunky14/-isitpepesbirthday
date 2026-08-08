@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 
 const pepeQuips = [
+
   "Obviously.",
   "As if there was any doubt.",
   "Pepe has spoken.",
@@ -28,19 +29,34 @@ const pepeQuips = [
   "Pepe remains undefeated.",
   "The vibes are overwhelmingly birthday.",
   "Scientists are calling it: Pepe's birthday.",
+  "Calabria called again. They said 'auguri'.",
+  "Nobody knows what Pepe is doing. But he's doing it on his birthday.",
+  "Pepe woke up and chose festa.",
+  "Calabria is celebrating. Rome is confused.",
+  "Breaking news: Pepe continues to be Pepe.",
+  "Today is not a normal day. È il giorno di Pepe.",
+  "Pepe's birthday is not a suggestion. It is a fact.",
+  "One birthday. Zero regrets. Probably.",
+  "Ragazzi, it's Pepe's birthday. Act accordingly.",
   "Experts agree: Pepe.",
   "Local authorities have declared today Pepe Day.",
+  "Sorry, but you're mistaken. It is Pepe's birthday.",
+  "Plot twist: it's Pepe's birthday.",
+  "Why would it not be Pepe's birthday?",
   "Calabria has requested that everyone remain calm.",
   "Sources close to Pepe confirm: birthday.",
   "Pepe's lawyers have confirmed that this is indeed his birthday.",
   "The council has voted unanimously in favour of Pepe.",
   "The situation is extremely Pepe.",
   "Cesar has denied all allegations.",
+  "Happy birthday, Pepe. May your year be de la buena.",
+
 ];
 
 export default function Home() {
   const [isChristmas, setIsChristmas] = useState(false);
-const [quip, setQuip] = useState("Obviously.");
+  const [quip, setQuip] = useState("Obviously.");
+
   useEffect(() => {
     const today = new Date();
 
@@ -49,13 +65,10 @@ const [quip, setQuip] = useState("Obviously.");
     );
 
 const randomQuip =
-
   pepeQuips[Math.floor(Math.random() * pepeQuips.length)];
 
 if (randomQuip) {
-
   setQuip(randomQuip);
-
 }
   }, []);
 
@@ -78,9 +91,12 @@ if (randomQuip) {
 
             <div className="text-6xl mt-6">🎄</div>
 
-            <p className="text-xl md:text-2xl text-gray-600 mt-8">
-              It&apos;s Christmas. Pepe has to share.
-            </p>
+<p className="text-xl md:text-2xl text-gray-600 mt-8">
+  It&apos;s Christmas.
+  <br />
+  Give Pepe a break.
+</p>
+
           </>
         ) : (
           <>
@@ -91,14 +107,7 @@ if (randomQuip) {
             <div className="text-6xl mt-6">🎂</div>
 
             <p className="text-xl md:text-2xl text-gray-600 mt-8">
-              {quip === "Happy birthday, Pepe. May your year be de la buena." ? (
-                <>
-                  Happy birthday, Pepe. May your year be{" "}
-                  <em>de la buena</em>.
-                </>
-              ) : (
-                quip
-              )}
+              {quip}
             </p>
           </>
         )}
