@@ -71,44 +71,82 @@ if (randomQuip) {
 
   return (
     <main className="min-h-screen flex items-center justify-center bg-[#f8f5ed] px-6">
-      <div className="text-center">
-        <p className="text-sm font-medium tracking-[0.3em] uppercase text-gray-500 mb-6">
-          A very important question
-        </p>
+    <div className="text-center">
 
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 mb-10">
-          Is it Pepe&apos;s birthday?
-        </h1>
+  <p className="text-sm font-medium tracking-[0.3em] uppercase text-gray-500 mb-6">
 
-        {isChristmas ? (
-          <>
-            <div className="text-8xl md:text-9xl font-black tracking-tight text-gray-900">
-              NO
-            </div>
+    A very important question
 
-            <div className="text-6xl mt-6">🎄</div>
+  </p>
 
-<p className="text-xl md:text-2xl text-gray-600 mt-8">
-  It&apos;s Christmas.
-  <br />
-  Give Pepe a break.
-</p>
+  <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 mb-10">
 
-          </>
-        ) : (
-          <>
-            <div className="text-8xl md:text-9xl font-black tracking-tight text-gray-900">
-              YES
-            </div>
+    Is it Pepe&apos;s birthday?
 
-            <div className="text-6xl mt-6">🎂</div>
+  </h1>
 
-            <p className="text-xl md:text-2xl text-gray-600 mt-8">
-              {quip}
-            </p>
-          </>
-        )}
+  {isChristmas ? (
+
+    <>
+
+      <div className="text-8xl md:text-9xl font-black tracking-tight text-gray-900">
+
+        NO
+
       </div>
+
+      <div className="text-6xl mt-6">🎄</div>
+
+      <p className="text-xl md:text-2xl text-gray-600 mt-8">
+
+        It&apos;s Christmas.
+
+        <br />
+
+        Give Pepe a break.
+
+      </p>
+
+    </>
+
+  ) : (
+
+    <>
+
+      <div className="text-8xl md:text-9xl font-black tracking-tight text-gray-900">
+
+        YES
+
+      </div>
+
+      <div className="text-6xl mt-6">🎂</div>
+
+      <p className="text-xl md:text-2xl text-gray-600 mt-8">
+
+        {quip}
+
+      </p>
+
+    </>
+
+  )}
+
+  <button
+
+    onClick={() => window.location.reload()}
+
+    className="mt-12 inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-100 transition"
+
+  >
+
+    Ask Calabria
+
+    <span className="text-base">↻</span>
+
+  </button>
+
+</div>
+
     </main>
   );
 }
