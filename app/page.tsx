@@ -53,6 +53,30 @@ const pepeQuips = [
 
   "Happy birthday, Pepe. Have some broccoli.",
 
+    "Pepe remains undefeated.",
+
+  "The vibes are overwhelmingly birthday.",
+
+  "Scientists are calling it: Pepe's birthday.",
+
+  "Experts agree: Pepe.",
+
+  "Local authorities have declared today Pepe Day.",
+
+  "Calabria has requested that everyone remain calm.",
+
+  "Sources close to Pepe confirm: birthday.",
+
+  "Pepe's lawyers have confirmed that this is indeed his birthday.",
+
+  "The council has voted unanimously in favour of Pepe.",
+
+  "The situation is extremely Pepe.",
+
+    "Cesar has denied all allegations.",
+
+      "Happy birthday, Pepe. May your year be de la buena.",
+
 
 ];
 
