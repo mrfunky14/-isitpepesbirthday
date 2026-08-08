@@ -47,6 +47,15 @@ const pepeQuips = [
   "The council has voted unanimously in favour of Pepe.",
   "The situation is extremely Pepe.",
   "Cesar has denied all allegations.",
+  "Ma certo che è il compleanno di Pepe. Che domande.",
+  "Che cazzo guardi? È il compleanno di Pepe.",
+  "Pepe oggi può fare quello che cazzo vuole.",
+  "Abbiamo controllato tre volte. È sempre Pepe.",
+  "Non chiedere perché. È Pepe.",
+  "Madonna santa, è proprio il compleanno di Pepe.",
+  "Pepe heard 'maybe it's not his birthday' and said 'ma che cazzo.'",
+  "Pepe has no time for your bullshit. È il suo compleanno.",
+  "Pepe is birthdaying. Non rompete i coglioni.",
 
 ];
 
