@@ -10,7 +10,6 @@ const pepeQuips = [
   "The broccoli has confirmed it.",
   "Calabria has confirmed it.",
   "A very important day for Calabria.",
-  "Nonna would be proud.",
   "Pepe deserves a broccoli.",
   "Today, we celebrate. Tomorrow, more broccoli.",
   "This is bigger than Christmas.",
@@ -21,7 +20,6 @@ const pepeQuips = [
   "Yes. Next question.",
   "You really needed to check?",
   "The evidence is overwhelming.",
-  "Pepe woke up knowing this was his day.",
   "Calabria called. They said yes.",
   "A historic day for Pepe and broccoli everywhere.",
   "Obviously. He's from Calabria.",
@@ -49,7 +47,6 @@ const pepeQuips = [
   "The council has voted unanimously in favour of Pepe.",
   "The situation is extremely Pepe.",
   "Cesar has denied all allegations.",
-  "Happy birthday, Pepe. May your year be de la buena.",
 
 ];
 
