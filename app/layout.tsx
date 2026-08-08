@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
   title: "Is it Pepe's Birthday?",
 
-  description: "It's question we're all asking every day of the year.",
+  description: "It's the question we're all asking every day of the year.",
 
 };
 
